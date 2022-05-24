@@ -7,32 +7,32 @@ Monday: while (number == 1) {
   break;
 }
 
-Tuesday: while (number == 1) {
+Tuesday: while (number == 2) {
   console.log("Tuesday");
   break;
 }
 
-Wednesday: while (number == 1) {
+Wednesday: while (number == 3) {
   console.log("Wednesday");
   break;
 }
 
-Thursday: while (number == 1) {
+Thursday: while (number == 4) {
   console.log("Thursday");
   break;
 }
 
-Friday: while (number == 1) {
+Friday: while (number == 5) {
   console.log("Friday");
   break;
 }
 
-Saturday: while (number == 1) {
+Saturday: while (number == 6) {
   console.log("Saturday");
   break;
 }
 
-Sunday: while (number == 1) {
+Sunday: while (number == 7) {
   console.log("Sunday");
   break;
 }
