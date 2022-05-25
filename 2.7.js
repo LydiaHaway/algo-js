@@ -17,4 +17,4 @@ for (i = 0; i < sumVal.length; i++) {
   sum += sumVal[i];
 }
 
-console.log(`The sum is ${sum}`);
+console.log("the sum is " + sum);
