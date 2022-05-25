@@ -1,5 +1,13 @@
 const readlineSync = require("readline-sync");
 
+/**
+ *
+ * @param {*} left
+ * @param {*} right
+ * @param {*} current
+ * @returns
+ */
+
 function elevator(left, right, current) {
   let dist1 = Math.abs(current - left);
   let dist2 = Math.abs(current - right);
