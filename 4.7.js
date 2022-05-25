@@ -9,7 +9,7 @@ const readlineSync = require("readline-sync");
  */
 
 function elevator(left, right, current) {
-  let dist1 = Math.abs(current - left);
+  let dist1 = Math.abs(current - left); // abs to keep number positive
   let dist2 = Math.abs(current - right);
 
   if (dist1 >= dist2) {
