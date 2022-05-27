@@ -2,37 +2,32 @@ const readlineSync = require("readline-sync");
 
 let number = readlineSync.question("Could you give a number from 1 to 7?");
 
-Monday: while (number == 1) {
-  console.log("Monday");
-  break;
-}
+switch (number) {
+  case "1":
+    console.log("monday");
+    break;
 
-Tuesday: while (number == 2) {
-  console.log("Tuesday");
-  break;
-}
+  case "2":
+    console.log("tuesday");
+    break;
 
-Wednesday: while (number == 3) {
-  console.log("Wednesday");
-  break;
-}
+  case "3":
+    console.log("wednesday");
+    break;
 
-Thursday: while (number == 4) {
-  console.log("Thursday");
-  break;
-}
+  case "4":
+    console.log("thursday");
+    break;
 
-Friday: while (number == 5) {
-  console.log("Friday");
-  break;
-}
+  case "5":
+    console.log("friday");
+    break;
 
-Saturday: while (number == 6) {
-  console.log("Saturday");
-  break;
-}
+  case "6":
+    console.log("saturday");
+    break;
 
-Sunday: while (number == 7) {
-  console.log("Sunday");
-  break;
+  case "7":
+    console.log("sunday");
+    break;
 }
