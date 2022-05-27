@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
-const info = ["Zelena", "The Wicked Witch", "Emma Swan", "Once Upon a Time"];
-const [enemyName, enemyTitle, protagnostName, title] = info;
+let info = ["Zelena", "The Wicked Witch", "Emma Swan", "Once Upon a Time"];
+let [enemyName, enemyTitle, protagnostName, title] = info;
 
 console.log(
   enemyName +
@@ -9,6 +9,6 @@ console.log(
     enemyTitle +
     " is an enemy to " +
     protagnostName +
-    " " +
+    " in " +
     title
 );
