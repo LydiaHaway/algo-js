@@ -13,13 +13,13 @@ function askTvSerie() {
 
   let castList = cast.toString();
 
-  const result = {
+  const tvSerie = {
     "TV Show": name,
     "Years of production": time,
     "cast members": castList,
   };
 
-  return result;
+  return tvSerie;
 }
 
 console.log(askTvSerie());
