@@ -7,9 +7,31 @@ class Animal {
 }
 
 class Dog extends Animal {
-  constructor(name) {
-    super(this.name);
+  constructor(greeting, name) {
+    super();
+    this.constructor.greeting = greeting;
+    this.name = name;
+  }
+  sayHello() {
+    return super.sayHello();
   }
 }
 
-class Cat extends Animal {}
+class Cat extends Animal {
+  constructor(greeting, name) {
+    super();
+    this.constructor.greeting = greeting;
+    this.name = name;
+  }
+  sayHello() {
+    return super.sayHello();
+  }
+}
+
+let obj1 = new Cat("Meow", "Loki");
+
+console.log(obj1.sayHello());
+
+let obj2 = new Dog("Woof", "Mobius");
+
+console.log(obj2.sayHello());

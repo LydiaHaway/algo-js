@@ -11,8 +11,8 @@ class Human {
   }
 }
 
-obj1 = new Human("Sherlock", "Holmes");
-obj2 = new Human("Mycroft", "Holmes");
+let obj1 = new Human("Sherlock", "Holmes");
+let obj2 = new Human("Mycroft", "Holmes");
 
 console.log(obj1.sayHello());
 console.log(obj2.sayHello());
