@@ -28,10 +28,10 @@ class Cat extends Animal {
   }
 }
 
-let obj1 = new Cat("Meow", "Loki");
+let obj1 = new Cat("Meow", "Legolas");
 
 console.log(obj1.sayHello());
 
-let obj2 = new Dog("Woof", "Mobius");
+let obj2 = new Dog("Woof", "Aragorn");
 
 console.log(obj2.sayHello());

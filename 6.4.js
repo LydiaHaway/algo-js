@@ -20,6 +20,7 @@ let obj1 = new Human("Sherlock", "Holmes");
 
 console.log(obj1.Name); // Sherlock Holmes
 
-obj1.Name = "Mycroft Holmes";
+obj1.Name = "John Watson";
 
-console.log(obj1.firstName); // Mycroft
+console.log(obj1.firstName); // John
+console.log(obj1.lastName); // Watson

@@ -22,4 +22,8 @@ function askTvSerie() {
   return tvSerie;
 }
 
-function randomizeCast(tvSerie) {}
+let tvShow = askTvSerie();
+
+console.log(tvShow);
+
+function randomizeCast(tvShow) {}

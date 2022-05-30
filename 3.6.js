@@ -12,7 +12,7 @@ array = [
   "the",
   "Tardis.",
 ];
-array[array.length - 1];
-var sentence = array.join(" ");
+
+let sentence = array.join(" ");
 
 console.log(sentence);
