@@ -24,6 +24,4 @@ function askTvSerie() {
 
 let tvShow = askTvSerie();
 
-console.log(tvShow);
-
 function randomizeCast(tvShow) {}
