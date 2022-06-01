@@ -36,4 +36,6 @@ function program() {
   }
 }
 
-console.log(program());
+let final = program();
+
+console.log(final);
