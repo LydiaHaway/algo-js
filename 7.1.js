@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-let i = Math.floor(Math.random() * 10) + 1;
+let i = Math.floor(Math.random() * 100) + 1;
 let number = i;
 
 function GuessTheRIghtNumber() {
@@ -18,8 +18,8 @@ function GuessTheRIghtNumber() {
     return GuessTheRIghtNumber();
   }
 
-  if (guess === number) {
-    console.log("Well guessed!");
+  if (guess == number) {
+    return console.log("Well guessed!");
   }
 }
 
