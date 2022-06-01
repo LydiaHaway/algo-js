@@ -1,5 +1,9 @@
 const readlineSync = require("readline-sync");
 
+function Random(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
+
 function askTvSerie() {
   let name = readlineSync.question("what's your favorite Tv Show?");
   let time = readlineSync.question("What was the year of its production?");
@@ -13,10 +17,15 @@ function askTvSerie() {
 
   let castList = cast.toString();
 
+  let castRandom = Random(cast);
+
+  let castRandomList = castRandom.toString();
+
   const tvSerie = {
     "TV Show": name,
     "Years of production": time,
-    "cast members": castList,
+    "Cast member": castList,
+    "Random cast member": castRandomList,
   };
 
   return tvSerie;
@@ -24,4 +33,4 @@ function askTvSerie() {
 
 let tvShow = askTvSerie();
 
-function randomizeCast(tvShow) {}
+console.log(tvShow);
