@@ -13,3 +13,5 @@ console.log(sortArray(array));
 // without using the sort function?
 
 arr = [6, 3, 15, 35, 21, 90, 85];
+
+function sortArray(arr) {}
